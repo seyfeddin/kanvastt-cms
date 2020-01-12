@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "events",
+  "info": {
+    "name": "Events"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "datetime": {
+      "type": "datetime"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "location_name": {
+      "type": "string",
+      "required": false
+    },
+    "location_url": {
+      "type": "string"
+    },
+    "register_url": {
+      "type": "string"
+    }
+  }
+}
