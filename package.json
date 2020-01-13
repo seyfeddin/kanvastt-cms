@@ -1,8 +1,8 @@
 {
-  "name": "my-project",
+  "name": "kanvastt-cms",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "KanvasTT CMS",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -22,10 +22,11 @@
     "strapi-plugin-email": "3.0.0-beta.18.4",
     "strapi-plugin-upload": "3.0.0-beta.18.4",
     "strapi-plugin-users-permissions": "3.0.0-beta.18.4",
+    "strapi-provider-upload-aws-s3": "^3.0.0-beta.18.4",
     "strapi-utils": "3.0.0-beta.18.4"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Adem ilter"
   },
   "strapi": {
     "uuid": "973ee9d3-24f8-46f7-bb3e-951ed2e41caf"
