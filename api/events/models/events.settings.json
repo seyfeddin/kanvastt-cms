@@ -28,6 +28,12 @@
     },
     "register_url": {
       "type": "string"
+    },
+    "photos": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
     }
   }
 }
