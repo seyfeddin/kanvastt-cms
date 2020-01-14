@@ -29,10 +29,10 @@
     "register_url": {
       "type": "string"
     },
-    "photos": {
-      "collection": "file",
-      "via": "related",
-      "plugin": "upload",
+    "photos_url": {
+      "type": "string",
+      "private": false,
+      "unique": false,
       "required": false
     }
   }
