@@ -1,4 +1,5 @@
-'use strict';
+'use strict'
+const fetch = require('isomorphic-unfetch')
 
 /**
  * Lifecycle callbacks for the `events` model.
@@ -11,7 +12,11 @@ module.exports = {
 
   // After saving a value.
   // Fired after an `insert` or `update` query.
-  // afterSave: async (model, response, options) => {},
+  afterSave: async (model, response, options) => {
+    const hookUrl = strapi.config.currentEnvironment.staticWebsiteBuildURL
+    if(!hookUrl) return
+    await fetch(hookUrl, { method: 'POST' })
+  }
 
   // Before fetching a value.
   // Fired before a `fetch` operation.
@@ -52,4 +57,4 @@ module.exports = {
   // After destroying a value.
   // Fired after a `delete` query.
   // afterDestroy: async (model, attrs, options) => {}
-};
+}
