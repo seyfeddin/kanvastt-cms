@@ -1632,9 +1632,9 @@ autoprefixer@^9.5.1:
     postcss-value-parser "^4.0.2"
 
 aws-sdk@^2.457.0:
-  version "2.601.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.601.0.tgz#7210e4e1edcffbe76e9b2a7181617966c9cfc731"
-  integrity sha512-i8ND3Hn0zjuwyau47io8Uyvbeb6dnOYbC6k34u3DvqH3I/kFDgDAme6L58LUzSHAPDWhUDjNXpScmMsGZVDWrw==
+  version "2.610.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.610.0.tgz#a8633204bed83df763095824f8110ced4a717d2a"
+  integrity sha512-kqcoCTKjbxrUo2KeLQR2Jw6l4PvkbHXSDk8KqF2hXcpHibiOcMXZZPVe9X+s90RC/B2+qU95M7FImp9ByMcw7A==
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -8690,9 +8690,9 @@ strapi-provider-email-sendmail@3.0.0-beta.18.4:
     sendmail "^1.2.0"
 
 strapi-provider-upload-aws-s3@^3.0.0-beta.18.4:
-  version "3.0.0-beta.18.4"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-aws-s3/-/strapi-provider-upload-aws-s3-3.0.0-beta.18.4.tgz#e788d03baa7bca59f1e8bc9e6153ccf4e173b86b"
-  integrity sha512-sZS/qHgNyJ+NFp42rjQINymdPxdI8PHuq2UAND0cadV33GKWghBm8WYcq9BXc7VhJctusj3uF/2vwsuyIokZlg==
+  version "3.0.0-beta.18.6"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-aws-s3/-/strapi-provider-upload-aws-s3-3.0.0-beta.18.6.tgz#62479555431b4f3c06528663e8df1b044534264e"
+  integrity sha512-AdaVwdZ3PDBzG9T0/YK30vUp7vZKcbjo5Xi8uoyqB3ue5mEaKHwtQzhOGzfcfVR6hkn1zi+lGA13a/6MAVsuhg==
   dependencies:
     aws-sdk "^2.457.0"
     lodash "^4.17.11"
