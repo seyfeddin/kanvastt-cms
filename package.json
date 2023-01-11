@@ -13,7 +13,7 @@
   "devDependencies": {},
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0",
-    "knex": "<0.20.0",
+    "knex": "<2.5.0",
     "pg": "^7.17.1",
     "sqlite3": "^4.1.1",
     "strapi": "3.0.0-beta.18.4",
